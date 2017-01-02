@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Controllers">
+<head>
+    <meta charset="UTF-8">
+    <title>Controllers and Nested Controllers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div data-ng-controller="ParentController">
+            <h3>Accessing own scope.</h3>
+            {{ name }}
+
+            <!--Trying to access parent model-->
+            <div data-ng-controller="ChildController">
+                <h3>Accessing parent scope.</h3>
+                {{ name }}
+                
+                <!--Trying to access parent model-->
+                <div data-ng-controller="SubChildController">
+                    <h3>Accessing parent scope.</h3>
+                    {{ name }}
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
