@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Stopwatch">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.js"></script>
+    <script src="stopwatch.js"></script>
+</head>
+<body>
+    <div class="container" data-ng-controller="StopWatchController">
+        <h1 class="col-xs-offset-3">{{ watch }}</h1>
+        <!--<h2 class="col-xs-offset-5">{{ watch | date: 'hh:mm:ss'}}</h2>-->
+    </div>
+</body>
+</html>
