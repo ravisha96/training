@@ -1,7 +1,9 @@
 Building a navigation using ui.router
 
 1. config
-2. ui-route 
-3. $state
-4. $urlRouterProvider
-5. bootstrap navigation component ( http://getbootstrap.com/components/#navbar )
+2. ui-router
+3. ui-sref
+4. ui-sref-active
+5. $stateProvider
+6. $urlRouterProvider
+7. bootstrap navigation component ( http://getbootstrap.com/components/#navbar )
