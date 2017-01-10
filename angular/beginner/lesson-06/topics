@@ -1,0 +1,9 @@
+Building a navigation using ui.router
+
+1. $http
+2. filter
+    a. uppercase
+    b. lowercase
+    c. filter
+3. Custom filter
+    a. capitalize

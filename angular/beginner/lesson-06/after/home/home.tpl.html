@@ -1,0 +1,15 @@
+<div class="home">
+
+    <form>
+        <div class="form-group col-xs-12">
+            <input type="search" data-ng-model="username" class="form-control" placeholder="Search">
+        </div>
+    </form>
+
+    <div ng-repeat="user in users | filter: username">
+        <img class="user-profile-picture" ng-src="{{ user.picture }}" alt="{{user.name.first}}">
+        <span>{{user.name.first | uppercase}}</span>
+        <span>{{user.name.last | lowercase}}</span>
+        <hr/>
+    </div>
+</div>
