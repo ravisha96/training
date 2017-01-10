@@ -1,0 +1,7 @@
+Building a navigation using ui.router
+
+1. config
+2. ui-route 
+3. $state
+4. $urlRouterProvider
+5. bootstrap navigation component ( http://getbootstrap.com/components/#navbar )
